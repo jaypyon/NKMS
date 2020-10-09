@@ -1,0 +1,39 @@
+{
+  "name": "nkms",
+  "version": "1.0.0",
+  "description": "NKMS",
+  "bin":{
+	  "app":"./main.js"
+  },
+  "main": "./main.js",
+  "scripts": {
+    "test": "pkg ."
+  },
+  "pkg": {
+    "scripts": [],
+    "assets": [
+	  "./frontend/",
+	  "./terminalNodes/"
+    ],
+    "targets": [
+      "node12-linux-x64",
+      "node12-win-x64"
+    ]
+  },
+  "author": "Jaeyong Park",
+  "license": "ISC",
+  "dependencies": {
+    "charset": "^1.0.1",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "iconv-lite": "^0.6.2",
+    "request": "^2.88.2",
+    "shodan-client": "^3.2.0",
+    "socket.io": "^2.3.0",
+    "string-similarity": "^4.0.2"
+  },
+  "devDependencies": {
+    "diff": "^4.0.2",
+    "markdown-it": "^11.0.1"
+  }
+}

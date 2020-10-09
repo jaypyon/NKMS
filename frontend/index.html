@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>NKMS</title>
+		<link rel="stylesheet" type="text/css" href="frontend/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="frontend/css/app.css">
+		<link rel="stylesheet" type="text/css" href="frontend/css/style.css">
+		<link href="frontend/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+		<script src="frontend/js/jquery-3.4.1.min.js"></script>
+		<script src="frontend/js/bootstrap.min.js"></script>
+		<script src="frontend/js/contextmenu.min.js"></script>
+		<script src="frontend/js/jquery.cookie.js"></script>
+		<script src="frontend/js/socket.io.js"></script>
+		<script src="frontend/js/app.js"></script>
+	</head>
+	<body>
+		<header class="manual" id="manual">
+			<h2 class="manual-title" id='manual-title'>사용설명<h2>
+				<p></p>	
+		</header>
+		
+		<header class="click-information" id="click=information">
+			<h2 class="click-info-title" id='click-info-title'>상세정보<h2>
+				<p></p>	
+		</header>
+		<header class="main-introduction-fixed" id="main-introuduction">
+				<h1 class="header-title" id="title">홈페이지 관제체계</h1>
+				<div class="header-status">
+
+
+
+					<div class="user-datetime-day">
+						<strong class="datetime-date" id="datetime-date"></strong>
+						<div class="user-datetime-time" id="datetime-time"></div>
+						<input type='button' class='yousei' id='fukidou' value='OFF'/>
+						<input type='button' class='kinou' id='shodanReq' value='Shodan Request'/>
+						<!--<input type='button' class='kinou' id='getReq' value='Status'/>-->
+						<input type='button' class='kinou' id='getDocument' value='Documentation'/>
+					</div>
+				</div>
+			</header>
+		<div class="status-container" id="status-container">
+		
+		</div>
+		
+	</body>
+	<footer>정보보호 19-4기 박재용 &lt;scorpion@dgu.ac.kr&gt; </footer>
+</html>

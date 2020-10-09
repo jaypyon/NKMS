@@ -1,0 +1,228 @@
+body {
+	color: #fff;
+	padding: 0px 30px 20px;
+	background-color: #222651;
+	background-image: url(../images/backgroundT.jpg);
+	background-attachment: fixed;
+}
+.manual {
+display:none; background-color:black; position:absolute; left:0px; top:0px;
+width:100%;height:100%;opacity:0.5;
+
+}
+.manual-title {
+	top:155px;
+	left: 780px;
+    width: 425px;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: 250;
+    color: #ffffff;
+}
+.manual p {
+	margin: 0px 0px 0px;
+    top: 190px;
+    left: 745px;
+    position: absolute;
+    border-top: 4px #ffffff solid;
+    border-bottom: 4px #ffffff solid;
+    width: 500px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.click-information {
+display:none; background-color:black; position:absolute; left:0px; top:0px;
+width:1920px;height:1000px;opacity:0.5;
+
+}
+.click-info-title {
+	top:155px;
+	left: 780px;
+    width: 425px;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: 250;
+    color: #ffffff;
+}
+.click-information p {
+	margin: 0px 0px 0px;
+    top: 190px;
+    left: 745px;
+    position: absolute;
+    border-top: 4px #ffffff solid;
+    border-bottom: 4px #ffffff solid;
+    width: 500px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.nodes-information {
+display:none; background-color:blue; position:absolute; left:0px; top:0px;
+
+}
+.main-introduction-fixed {
+	/*position: relative;*/
+	padding: 30px 0 0;
+	
+	top: 0;
+	left: 0;
+	right: 0;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 30px 30px 0;
+	height: 90px;
+	background-color: #222651;
+	background-image: url(../images/backgroundT.jpg);
+	background-attachment: fixed;
+	margin-bottom: 30px; 
+}
+.header-title {
+
+    left: 780px;
+    width: 425px;
+    right: 0px;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    height: 70px;
+    border-top: 4px #025ba7 solid;
+    border-bottom: 4px #025ba7 solid;
+    background-repeat: no-repeat;
+    background-image: url(../images/123.jpg);
+    background-position: 0 50%;
+    font-size: 36px;
+    font-weight: 550;
+    line-height: 67px;
+    color: #0a74d0;
+}
+
+
+.user-datetime-day {
+	position:absolute;
+	text-align:center;
+	top:334px;
+	left:135px;
+    width: 200px;
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+    /*background-color: #b50000;*/
+}
+.user-datetime-time {
+    width: 200px;
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+    /*background-color: #b50000;*/
+}
+#datetime-date {
+	font-size:27px;
+}
+#datetime-time {
+	font-size:27px;
+}
+.status-container {
+	display: block;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    width: 1400px;
+}
+.status-node-normal {
+	font-size: 55px;
+    color: #005298;
+    width: 200px;
+    float: left;
+}
+.status-node-normal:hover {
+	color:#00abff;
+}
+.status-node-abnormal {
+	font-size: 55px;
+	color:#a94442;
+	width: 200px;
+    float: left;
+}
+.status-node-abnormal:hover {
+	color:#ff0500;
+}
+.status-node-noinfo {
+	font-size: 55px;
+	color:#82868a;
+	width: 200px;
+    float: left;
+}
+.status-node-noinfo:hover {
+	color:#ffffff;
+}
+.inner-information {
+	color:#ffffff;
+	font-size:16px;
+}
+
+.yousei{
+	opacity: 0.4;
+    width: 48px;
+    background-color: #ffffff;
+    font-weight: 100;
+    font-size: 21px;
+	border-radius:5px;
+	
+}
+.kinou{
+	opacity: 0.4;
+    width: 48px;
+    background-color: #ffffff;
+    font-weight: 100;
+    font-size: 21px;
+	border-radius:5px;
+	
+}
+#kidou{
+	color:#0043ff;	
+	cursor:default;
+}
+#fukidou{
+	cursor:default;
+	color: #ff0500;
+	width: 57px;
+}
+#shodanReq {
+	color: #000000;
+    cursor: default;
+    width: 210px;
+    float: right;
+}
+#shodanReq{
+	position:absolute;
+	top:330px;
+	left:10px;
+}
+/* #getReq{
+	position:absolute;
+	top:330px;
+	left:120px;
+} */
+#getDocument{
+	position:absolute;
+	top: 371px;
+	left: 10px;
+	color: #000000;
+	cursor: default;
+	width: 210px;
+	float: right;
+}
+
+footer {
+	position: absolute;
+    left: 1630px;
+    top: 790px;
+    width: 425px;
+    font-size: 10px;
+    color: #735757;
+}
